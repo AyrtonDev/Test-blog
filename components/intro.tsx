@@ -16,6 +16,11 @@ const Intro = () => {
         </a>{" "}
         and {CMS_NAME}.
       </h4>
+
+      <button className="mt-5 bg-blue-200 p-3 rounded-sm">
+        {" "}
+        + Adicionar novo post
+      </button>
     </section>
   );
 };
